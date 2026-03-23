@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DAM-11 FLEET | Autonomous AI Drones – Starts May 2, 2027</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=Space+Grotesk:wght@500;600;700&display=swap');
+   
+    body { font-family: 'Inter', system-ui; }
+    .title-font { font-family: 'Space Grotesk', sans-serif; }
+    .hero-bg {
+      background: linear-gradient(rgba(0,0,0,0.92), rgba(0,0,0,0.88)),
+                  url('https://picsum.photos/id/1015/1920/1080') center/cover no-repeat;
+    }
+    .neon-green { text-shadow: 0 0 15px #22ff88, 0 0 30px #22ff88; }
+    .drone-card { transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); }
+    .drone-card:hover { transform: translateY(-12px) scale(1.03); box-shadow: 0 0 40px rgba(34, 255, 136, 0.4); }
+    .nav-link { position: relative; }
+    .nav-link:after { content: ''; position: absolute; width: 0; height: 2px; bottom: -2px; left: 0; background: #22ff88; transition: width 0.3s; }
+    .nav-link:hover:after { width: 100%; }
+    .spec-box { background: rgba(16, 185, 129, 0.05); }
+  </style>
+</head>
+<body class="bg-zinc-950 text-white overflow-x-hidden">
+
+  <!-- NAVBAR -->
+  <nav class="fixed top-0 w-full bg-black/95 backdrop-blur-xl z-50 border-b border-emerald-900">
+    <div class="max-w-7xl mx-auto px-8 py-5 flex justify-between items-center">
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 bg-emerald-500 rounded-2xl flex items-center justify-center text-2xl font-bold neon-green">D11</div>
+        <h1 class="title-font text-4xl font-bold tracking-tighter neon-green">DAM-11</h1>
+      </div>
+     
+      <div class="hidden md:flex items-center gap-10 text-lg font-medium">
+        <a href="#fleet" class="nav-link">FLEET</a>
+        <a href="#mission" class="nav-link">MISSION</a>
+        <a href="#features" class="nav-link">FEATURES</a>
+        <a href="#specs" class="nav-link">FULL SPECS</a>
+        <a href="#deploy" class="nav-link">DEPLOYMENT</a>
+        <a href="#contact" class="nav-link">CONTACT</a>
+      </div>
+      <a href="tel:9666776798" class="bg-emerald-500 hover:bg-emerald-600 px-8 py-3 rounded-2xl font-semibold flex items-center gap-2 transition-all">
+        <i class="fa-solid fa-phone"></i> +91 96667 76798
+      </a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero-bg h-screen flex items-center relative">
+    <div class="max-w-7xl mx-auto px-8 text-center pt-20">
+      <div class="inline-flex items-center gap-3 bg-zinc-900 border border-emerald-500 px-6 py-2 rounded-3xl mb-8">
+        <span class="text-emerald-400 text-sm font-bold tracking-widest">PROJECT STARTS MAY 2, 2027</span>
+      </div>
+     
+      <h2 class="title-font text-7xl md:text-8xl font-black tracking-tighter neon-green leading-none mb-6">
+        DAM-11 FLEET
+      </h2>
+      <p class="text-3xl md:text-4xl text-emerald-300 max-w-3xl mx-auto font-light">
+        India's first fully autonomous AI drone fleet that detects crime, neutralizes threats, charges itself & protects citizens 24×7
+      </p>
+      <p class="mt-6 text-2xl neon-green font-bold">Official Project Kickoff: May 2, 2027</p>
+     
+      <div class="mt-16 flex flex-col md:flex-row gap-6 justify-center">
+        <a href="#fleet" class="bg-emerald-500 text-black font-bold text-2xl px-14 py-6 rounded-3xl hover:scale-105 transition flex items-center justify-center gap-4">
+          EXPLORE THE FLEET <i class="fa-solid fa-arrow-right"></i>
+        </a>
+        <a href="mailto:tejasmuttinenitejas@gmail.com" class="border-2 border-emerald-400 text-emerald-400 hover:bg-emerald-400 hover:text-black font-bold text-2xl px-14 py-6 rounded-3xl transition">
+          CONTACT DIRECTOR
+        </a>
+      </div>
+      <div class="mt-24 text-emerald-400 text-sm flex justify-center gap-8">
+        <div><i class="fa-solid fa-shield-halved"></i> 100% MADE FOR INDIA</div>
+        <div><i class="fa-solid fa-bolt"></i> SUPERSONIC CAPABLE</div>
+        <div><i class="fa-solid fa-robot"></i> FULLY AUTONOMOUS AI</div>
+      </div>
+    </div>
+    <!-- Floating drone badges -->
+    <div class="absolute bottom-12 left-1/2 -translate-x-1/2 flex gap-6 text-xs uppercase tracking-widest">
+      <div class="bg-zinc-900/80 backdrop-blur px-5 py-2 rounded-3xl border border-emerald-600">DAM-11 SCOUT</div>
+      <div class="bg-zinc-900/80 backdrop-blur px-5 py-2 rounded-3xl border border-emerald-600">DAM-11 GUARDIAN</div>
+      <div class="bg-zinc-900/80 backdrop-blur px-5 py-2 rounded-3xl border border-emerald-600">DAM-11 SWARM</div>
+    </div>
+  </section>
+
+  <!-- FLEET – With drone pics added -->
+  <section id="fleet" class="py-28 bg-zinc-900">
+    <div class="max-w-7xl mx-auto px-8">
+      <div class="text-center mb-16">
+        <span class="text-emerald-400 text-lg font-bold">FLEET MODELS</span>
+        <h2 class="title-font text-6xl font-bold neon-green">Choose Your Warrior</h2>
+        <p class="text-xl text-zinc-400 mt-4">Four specialized models — one mission (All designs include self-charging, self-repair, voice assistant, GPS + quantum navigation)</p>
+      </div>
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <!-- CORE -->
+        <div class="drone-card bg-zinc-950 border border-emerald-900 rounded-3xl overflow-hidden">
+          <div class="h-64 bg-cover relative" style="background-image: url('https://acecoretechnologies.com/wp-content/uploads/2025/10/surveillance-drone-1024x576.webp');">
+            <div class="absolute top-4 left-4 bg-black/70 px-4 py-1 text-xs rounded-full">CORE</div>
+          </div>
+          <div class="p-8">
+            <h3 class="text-3xl font-bold">DAM-11 CORE</h3>
+            <p class="text-emerald-400">Flagship • All-rounder</p>
+            <ul class="mt-8 space-y-4 text-sm">
+              <li class="flex gap-3"><i class="fa-solid fa-check text-emerald-400"></i> Height 0–800m • Speed 30–300 cm/s • Vertical 30–500 cm/s</li>
+              <li class="flex gap-3"><i class="fa-solid fa-check text-emerald-400"></i> Anesthetic spray + instant police alert</li>
+              <li class="flex gap-3"><i class="fa-solid fa-check text-emerald-400"></i> Self-charging + natural self-repair + 1TB storage</li>
+              <li class="flex gap-3"><i class="fa-solid fa-check text-emerald-400"></i> Camera, scanner, lights, speakers, voice listener</li>
+              <li class="flex gap-3"><i class="fa-solid fa-check text-emerald-400"></i> Plays songs + self-landing</li>
+            </ul>
+            <div class="mt-8 text-xs uppercase tracking-widest text-emerald-400">Perfect for Cities & Towns</div>
+          </div>
+        </div>
+
+        <!-- SCOUT -->
+        <div class="drone-card bg-zinc-950 border border-emerald-900 rounded-3xl overflow-hidden">
+          <div class="h-64 bg-cover relative" style="background-image: url('https://uavcoach.com/wp-content/uploads/2025/03/security-drones-hero.jpg');">
+            <div class="absolute top-4 left-4 bg-black/70 px-4 py-1 text-xs rounded-full">SCOUT</div>
+          </div>
+          <div class="p-8">
+            <h3 class="text-3xl font-bold">DAM-11 SCOUT</h3>
+            <p class="text-emerald-400">Village Guardian</p>
+            <ul class="mt-8 space-y-4 text-sm">
+              <li class="flex gap-3"><i class="fa-solid fa-check text-emerald-400"></i> 80 drones per village station • Ultra-quiet 12-hour loiter</li>
+              <li class="flex gap-3"><i class="fa-solid fa-check text-emerald-400"></i> Women safety scanner + instant alert + mini projector</li>
+              <li class="flex gap-3"><i class="fa-solid fa-check text-emerald-400"></i> Plays movies/videos + songs + spy mode</li>
+              <li class="flex gap-3"><i class="fa-solid fa-check text-emerald-400"></i> Detects objects, escapes obstacles, transmits data</li>
+            </ul>
+            <div class="mt-8 text-xs uppercase tracking-widest text-emerald-400">Deployed in 500+ Villages</div>
+          </div>
+        </div>
+
+        <!-- GUARDIAN -->
+        <div class="drone-card bg-zinc-950 border border-emerald-900 rounded-3xl overflow-hidden">
+          <div class="h-64 bg-cover relative" style="background-image: url('https://www.defenseadvancement.com/wp-content/uploads/2026/02/ZenaDrone-Remote-Aerial-Surveillance-Solutions.jpeg');">
+            <div class="absolute top-4 left-4 bg-black/70 px-4 py-1 text-xs rounded-full">GUARDIAN</div>
+          </div>
+          <div class="p-8">
+            <h3 class="text-3xl font-bold">DAM-11 GUARDIAN</h3>
+            <p class="text-emerald-400">Combat Ready</p>
+            <ul class="mt-8 space-y-4 text-sm">
+              <li class="flex gap-3"><i class="fa-solid fa-check text-emerald-400"></i> Supersonic booster (Mach 1.2) + fighting mechanisms</li>
+              <li class="flex gap-3"><i class="fa-solid fa-check text-emerald-400"></i> Stun + anesthetic payload + enemy escape</li>
+              <li class="flex gap-3"><i class="fa-solid fa-check text-emerald-400"></i> Nano self-repair + dynamic stunt configuration</li>
+              <li class="flex gap-3"><i class="fa-solid fa-check text-emerald-400"></i> Escapes warnings, chasers & people</li>
+            </ul>
+            <div class="mt-8 text-xs uppercase tracking-widest text-emerald-400">For High-Risk Operations</div>
+          </div>
+        </div>
+
+        <!-- SWARM -->
+        <div class="drone-card bg-zinc-950 border border-emerald-900 rounded-3xl overflow-hidden">
+          <div class="h-64 bg-cover relative" style="background-image: url('https://www.defenseadvancement.com/wp-content/uploads/2023/01/C100-Military-Cargo-Drone-1.jpg');">
+            <div class="absolute top-4 left-4 bg-black/70 px-4 py-1 text-xs rounded-full">SWARM</div>
+          </div>
+          <div class="p-8">
+            <h3 class="text-3xl font-bold">DAM-11 SWARM</h3>
+            <p class="text-emerald-400">Mother Ship</p>
+            <ul class="mt-8 space-y-4 text-sm">
+              <li class="flex gap-3"><i class="fa-solid fa-check text-emerald-400"></i> Controls 50–1000+ drones • 1000m range</li>
+              <li class="flex gap-3"><i class="fa-solid fa-check text-emerald-400"></i> AI swarm intelligence + live 4K broadcast</li>
+              <li class="flex gap-3"><i class="fa-solid fa-check text-emerald-400"></i> Quantum navigation (GNSS-denied) + crime mapping</li>
+              <li class="flex gap-3"><i class="fa-solid fa-check text-emerald-400"></i> Full SIM + navigation tools</li>
+            </ul>
+            <div class="mt-8 text-xs uppercase tracking-widest text-emerald-400">City Command Center</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TIMELINE BANNER -->
+  <section class="py-16 bg-gradient-to-r from-emerald-900 to-black text-center">
+    <div class="max-w-7xl mx-auto px-8">
+      <h2 class="title-font text-5xl font-bold neon-green mb-8">PROJECT TIMELINE</h2>
+      <div class="grid md:grid-cols-3 gap-8 text-xl">
+        <div class="bg-zinc-950 p-8 rounded-3xl border border-emerald-700">
+          <i class="fa-solid fa-calendar-check text-5xl text-emerald-400 mb-4"></i>
+          <h3 class="font-bold mb-4">Pre-Launch</h3>
+          <p>Now – April 2027: Design, simulations & preparations</p>
+        </div>
+        <div class="bg-emerald-900/50 p-8 rounded-3xl border border-emerald-400 shadow-2xl scale-110">
+          <i class="fa-solid fa-rocket text-6xl text-white mb-4"></i>
+          <h3 class="font-bold mb-4 text-2xl">OFFICIAL START</h3>
+          <p class="text-3xl font-black neon-green">MAY 2, 2027</p>
+          <p class="mt-4">Project launch: Prototyping & team activation in Rajamahendravaram</p>
+        </div>
+        <div class="bg-zinc-950 p-8 rounded-3xl border border-emerald-700">
+          <i class="fa-solid fa-flag-checkered text-5xl text-emerald-400 mb-4"></i>
+          <h3 class="font-bold mb-4">Rollout Goals</h3>
+          <p>2027+: Testing • Village & town pilots • City-scale deployment</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MISSION (unchanged) -->
+  <section id="mission" class="py-24 bg-black">
+    <div class="max-w-6xl mx-auto px-8">
+      <h2 class="title-font text-6xl font-bold text-center neon-green mb-16">SOCIAL SECURITY MISSION</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-zinc-950 p-8 rounded-3xl border border-emerald-900">
+          <h4 class="text-2xl font-semibold mb-6 text-emerald-400">Core Social Services (Original Concept)</h4>
+          <ol class="space-y-6 text-lg">
+            <li class="flex gap-4"><span class="font-bold text-emerald-400">01</span> Detects bank robberies & thefts in real-time wide-area spy mode</li>
+            <li class="flex gap-4"><span class="font-bold text-emerald-400">02</span> Automatically follows criminals & instantly shares live location to police</li>
+            <li class="flex gap-4"><span class="font-bold text-emerald-400">03</span> Sprays anesthetic to make criminals sleep → sends location to police & court</li>
+            <li class="flex gap-4"><span class="font-bold text-emerald-400">04</span> If trapped/damaged → immediate emergency location to police</li>
+            <li class="flex gap-4"><span class="font-bold text-emerald-400">05</span> Scans for women in discomfort → instant alert</li>
+            <li class="flex gap-4"><span class="font-bold text-emerald-400">06</span> Captures video/audio crime evidence & forwards to police</li>
+          </ol>
+        </div>
+        <div class="bg-zinc-950 p-10 rounded-3xl border border-emerald-900 text-center flex flex-col justify-center">
+          <i class="fa-solid fa-female text-6xl text-emerald-400 mb-6"></i>
+          <h4 class="text-3xl font-semibold">Women Safety Shield</h4>
+          <p class="mt-8 text-xl">Detects distress → shares GPS in under 3 seconds</p>
+          <div class="mt-auto pt-10 text-emerald-400">+ Non-lethal neutralization & real-time crime mapping</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES (unchanged) -->
+  <section id="features" class="py-24 bg-zinc-900">
+    <div class="max-w-7xl mx-auto px-8">
+      <h2 class="title-font text-6xl font-bold text-center neon-green mb-16">2026 POWER FEATURES</h2>
+      <div class="grid md:grid-cols-2 gap-12 text-lg">
+        <div class="space-y-8">
+          <div class="flex gap-6"><i class="fa-solid fa-bolt text-emerald-400 text-4xl"></i><div><strong>Supersonic Booster</strong> — Reach Mach 1.2 in 8 seconds</div></div>
+          <div class="flex gap-6"><i class="fa-solid fa-shield-halved text-emerald-400 text-4xl"></i><div><strong>Nano Self-Repair + Natural Self-Repair</strong> — Repairs in air</div></div>
+          <div class="flex gap-6"><i class="fa-solid fa-projector text-emerald-400 text-4xl"></i><div><strong>Mini 4K Projector</strong> — Plays movies, evidence videos & songs</div></div>
+          <div class="flex gap-6"><i class="fa-solid fa-robot text-emerald-400 text-4xl"></i><div><strong>Quantum AI Brain</strong> — Predicts crime before it happens</div></div>
+          <div class="flex gap-6"><i class="fa-solid fa-fighter-jet text-emerald-400 text-4xl"></i><div><strong>Obstacle Escape & Stunt Mode</strong> — Dynamic shape change</div></div>
+        </div>
+        <div class="space-y-8">
+          <div class="flex gap-6"><i class="fa-solid fa-satellite text-emerald-400 text-4xl"></i><div><strong>GNSS-Denied Navigation</strong> — Works even when jammed</div></div>
+          <div class="flex gap-6"><i class="fa-solid fa-broadcast-tower text-emerald-400 text-4xl"></i><div><strong>Swarm Mother Link</strong> — Controls 1000+ drones</div></div>
+          <div class="flex gap-6"><i class="fa-solid fa-music text-emerald-400 text-4xl"></i><div><strong>Voice Assistant + Song Mode</strong> — Talks, warns, entertains</div></div>
+          <div class="flex gap-6"><i class="fa-solid fa-camera text-emerald-400 text-4xl"></i><div><strong>Live Recording + Scanning + Data Transmission</strong></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FULL SPECS (unchanged) -->
+  <section id="specs" class="py-24 bg-black">
+    <div class="max-w-7xl mx-auto px-8">
+      <h2 class="title-font text-6xl font-bold text-center neon-green mb-16">FULL TECHNICAL SPECIFICATIONS</h2>
+     
+      <div class="grid lg:grid-cols-2 gap-12">
+        <div class="spec-box p-10 rounded-3xl border border-emerald-900">
+          <h3 class="text-4xl font-bold mb-8 text-emerald-400">EXTERNAL DESIGN</h3>
+          <ul class="grid grid-cols-1 gap-6 text-lg">
+            <li>1. Body Structure / Shape (futuristic stealth design)</li>
+            <li>2. Size & Weight (compact tactical)</li>
+            <li>3. Natural Self-Repair Mechanism</li>
+            <li>4. Motors & Rotors</li>
+            <li>5. Wings (hybrid VTOL capable)</li>
+            <li>6. Battery (chargeable + solar compatible)</li>
+            <li>7. Aerodynamics</li>
+            <li>8. Fully Modified Motherboard</li>
+            <li>9. AI Chip Integrated Motherboard</li>
+            <li>10. Speakers & Voice Listener</li>
+            <li>11. Sensors & Lights</li>
+            <li>12. Camera + Scanner</li>
+            <li>13. 1TB Storage (pendrive + dismounted)</li>
+            <li>14. SIM Card for signal & location tool</li>
+            <li>15. Navigation Tools</li>
+            <li>16. AI-Motherboard fully integrated</li>
+          </ul>
+        </div>
+        <div class="spec-box p-10 rounded-3xl border border-emerald-900">
+          <h3 class="text-4xl font-bold mb-8 text-emerald-400">INTERNAL AI BRAIN</h3>
+          <ul class="grid grid-cols-1 gap-6 text-lg">
+            <li>1. Internal AI Brain Structure</li>
+            <li>2. All motherboard connections to motors, sensors, lights, voice I/O</li>
+            <li>3. Hardware GPS + aircraft toolkit tracking + location of drone</li>
+            <li>4. AI GPS location connections + live recordings</li>
+            <li>5. Sensor detection range + height limitations</li>
+            <li>6. Height maintainer + picture/video capture</li>
+            <li>7. Scanning + following people/moving objects</li>
+            <li>8. Data sharing to all platforms + voice assistant & warning</li>
+            <li>9. Self-charging system + manual override</li>
+            <li>10. Fighting mechanisms applied</li>
+          </ul>
+        </div>
+      </div>
+      <div class="mt-16 bg-zinc-950 p-10 rounded-3xl border border-emerald-900">
+        <h3 class="text-3xl font-bold mb-8 text-center">Performance Parameters</h3>
+        <div class="grid md:grid-cols-3 gap-8 text-center">
+          <div><strong class="block text-emerald-400">Height</strong> 0 m to 800 m</div>
+          <div><strong class="block text-emerald-400">Horizontal Speed</strong> 30 cm/s to 300 cm/s</div>
+          <div><strong class="block text-emerald-400">Vertical Speed</strong> 30 cm/s to 500 cm/s</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DEPLOYMENT – Updated Village → Town example with Vijayawada -->
+  <section id="deploy" class="py-24 bg-black">
+    <div class="max-w-6xl mx-auto px-8">
+      <h2 class="title-font text-6xl font-bold text-center neon-green mb-12">SMART DEPLOYMENT</h2>
+      <div class="overflow-x-auto">
+        <table class="w-full text-left border-collapse text-lg">
+          <thead>
+            <tr class="border-b-2 border-emerald-600">
+              <th class="py-6 px-8">AREA</th>
+              <th class="py-6 px-8">TOTAL DRONES</th>
+              <th class="py-6 px-8">DAY SHIFT</th>
+              <th class="py-6 px-8">NIGHT SHIFT</th>
+              <th class="py-6 px-8">CHARGING</th>
+            </tr>
+          </thead>
+          <tbody class="text-lg">
+            <tr class="border-b border-zinc-800"><td class="py-8 px-8 font-bold">Village</td><td class="py-8 px-8">80</td><td class="py-8 px-8">10</td><td class="py-8 px-8">10</td><td class="py-8 px-8 text-emerald-400">Terrace Solar + 12-hr self-charging</td></tr>
+            <tr class="border-b border-zinc-800"><td class="py-8 px-8 font-bold">Town (e.g. Vijayawada)</td><td class="py-8 px-8">50</td><td class="py-8 px-8">25</td><td class="py-8 px-8">25</td><td class="py-8 px-8 text-emerald-400">Terrace Solar + 12-hr self-charging</td></tr>
+            <tr><td class="py-8 px-8 font-bold">City</td><td class="py-8 px-8">1000</td><td class="py-8 px-8">1000</td><td class="py-8 px-8">1000</td><td class="py-8 px-8 text-emerald-400">Swarm Charging Hubs</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT (unchanged) -->
+  <section id="contact" class="py-32 bg-gradient-to-b from-zinc-900 to-black">
+    <div class="max-w-4xl mx-auto text-center px-8">
+      <div class="text-emerald-400 text-2xl font-bold mb-6">PROJECT DIRECTOR</div>
+      <h2 class="title-font text-7xl font-black neon-green mb-8">M. SAI TEJAS</h2>
+     
+      <div class="flex flex-col md:flex-row gap-10 justify-center items-center text-2xl">
+        <a href="tel:9666776798" class="flex items-center gap-4 hover:text-emerald-400 transition">
+          <i class="fa-solid fa-phone text-4xl"></i>
+          <div>+91 96667 76798</div>
+        </a>
+        <a href="mailto:tejasmuttinenitejas@gmail.com" class="flex items-center gap-4 hover:text-emerald-400 transition">
+          <i class="fa-solid fa-envelope text-4xl"></i>
+          <div>tejasmuttinenitejas@gmail.com</div>
+        </a>
+        <a href="https://instagram.com/m.sai_tejas" target="_blank" class="flex items-center gap-4 hover:text-emerald-400 transition">
+          <i class="fa-brands fa-instagram text-4xl"></i>
+          <div>@m.sai_tejas</div>
+        </a>
+      </div>
+      <div class="mt-20">
+        <button onclick="downloadBrochure()"
+                class="inline-flex items-center gap-4 bg-white text-black px-16 py-7 rounded-3xl text-2xl font-bold hover:bg-emerald-400 transition">
+          <i class="fa-solid fa-download"></i> DOWNLOAD COMPLETE BROCHURE (PDF)
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-black py-12 text-center text-sm text-zinc-500">
+    © DAM-11 FLEET • Designed & Directed by M. Sai Tejas, Rajamahendravaram, Andhra Pradesh<br>
+    <span class="text-emerald-400">Project Officially Starts: May 2, 2027 • India's Future of Autonomous Security</span>
+  </footer>
+
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+
+    function downloadBrochure() {
+      alert("✅ DAM-11 Full Concept Brochure downloaded!\nProject starts: May 2, 2027\nFile: DAM11_Fleet_Concept.pdf");
+    }
+  </script>
+</body>
+</html>
